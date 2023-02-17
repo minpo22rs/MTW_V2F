@@ -292,7 +292,7 @@ class _NewLoginScreenState extends State<NewLoginScreen> {
                         GestureDetector(
                           onTap: () async {
                             var url =
-                                "http://localhost/mtw_v2/mtw_v2B33/api/login-mobile-mtwa";
+                                "http://localhost/mtw_v2/mtw_v2B/api/login-mobile-mtwa";
                             var data = {
                               'phone': phonectrl.text,
                               'password': passwordctrl.text
