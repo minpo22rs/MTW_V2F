@@ -397,7 +397,7 @@ class _NewRegisterScreenState extends State<NewRegisterScreen> {
                               onPressed: () async {
                                 if (phonectrl.text != '') {
                                   var url =
-                                      "https://fti77.sapappwork.xyz/API/otp-mobile-mtwa";
+                                      "http://localhost/mtw_v2/mtw_v2B/api/otp-mobile-mtwa";
                                   var data = {
                                     'phone': phonectrl.text,
                                   };
